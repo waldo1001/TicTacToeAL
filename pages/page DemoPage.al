@@ -17,6 +17,8 @@ page 50141 "Demo Page"
             
             usercontrol(Demo; DemoControl)
             {
+                ApplicationArea = All;
+                
                 trigger ControlReady();
                 begin
                     ControlIsReady := true;
@@ -113,7 +115,7 @@ page 50141 "Demo Page"
     
     trigger OnInit();
     begin
-        Name := 'Vjeko';
+        Name := 'waldo';
     end;
     
     trigger OnOpenPage();
