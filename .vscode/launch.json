@@ -5,7 +5,7 @@
             "type": "al",
             "request": "launch",
             "name": "Your own server",
-            "server": "https://td2017pre01.westeurope.cloudapp.azure.com",
+            "server": "https://devextworkshop1.westeurope.cloudapp.azure.com",
             "serverInstance": "NAV",
             "tenant": "",
             "authentication": "UserPassword",
