@@ -25,7 +25,7 @@ page 50141 "Demo Page"
                     UpdateName();
                 end;
                 
-                trigger MovePlayer(Position : JsonObject);
+                trigger PlayerHasMoved(Position : JsonObject);
                 var
                     TokenX: JsonToken;
                     TokenY: JsonToken;

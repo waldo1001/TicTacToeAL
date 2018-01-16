@@ -24,5 +24,5 @@ controladdin DemoControl
     procedure SetName(Name: Text);
     procedure MoveAI(Position: JsonObject);
     event ControlReady();
-    event MovePlayer(Position: JsonObject);
+    event PlayerHasMoved(Position: JsonObject);
 }

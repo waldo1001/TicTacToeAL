@@ -11,7 +11,7 @@ var demo = (function () {
         field.$
             .append("<img src='" + Microsoft.Dynamics.NAV.GetImageResource("images/" + turn + ".png") + "'>")
             .addClass("filled");
-        turn === "x" && Microsoft.Dynamics.NAV.InvokeExtensibilityMethod("MovePlayer", [{ x: x, y: y }]);
+        turn === "x" && Microsoft.Dynamics.NAV.InvokeExtensibilityMethod("PlayerHasMoved", [{ x: x, y: y }]);
         turn = turn === 'x' ? 'o' : 'x';
     };
 
